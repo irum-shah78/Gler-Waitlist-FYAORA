@@ -14,13 +14,13 @@ export const Button: React.FC<ButtonProps> = ({
   children,
   ...props
 }) => {
-  const baseClasses = 'inline-flex items-center justify-center rounded-md font-sm transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none transform hover:scale-105 active:scale-95';
+  const baseClasses = 'inline-flex items-center justify-center font-sm transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none transform hover:scale-105 active:scale-95';
   
   const variants = {
-    primary: 'bg-[#1A78F2] text-white hover:bg-blue-700 shadow-md hover:shadow-lg rounded-[100px]',
+    primary: 'bg-[#1A78F2] text-white hover:bg-blue-700 shadow-md hover:shadow-lg rounded-full',
     secondary: 'bg-[#C8D5D9] text-[#4E4636] text-sm hover:bg-gray-300 shadow-sm hover:shadow-md rounded-lg',
     destructive: 'bg-[#E11B1B] text-white hover:bg-red-700 shadow-md hover:shadow-lg rounded-[100px]',
-    outline: 'border border-[#807664] bg-white text-[#4E4636] hover:bg-gray-50 shadow-sm hover:shadow-md rounded-[100px]',
+    outline: 'border border-[#807664] bg-white text-[#4E4636] hover:bg-gray-50 shadow-sm hover:shadow-md rounded-full',
     secondaryOutline: 'border border-[#807664] text-sm bg-white text-[#4E4636] hover:bg-gray-50 shadow-sm hover:shadow-md rounded-lg'
   };
 
