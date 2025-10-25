@@ -1,10 +1,10 @@
 # Gler Waitlist Management System
 
-A modern, responsive admin panel for managing service providers on the Gler platform. Built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive admin panel for managing service providers on the Gler platform. Built with Next.js, TypeScript and Tailwind CSS.
 
 ## Features
 
-### 🎯 Core Functionality
+### Core Functionality
 - **Service Provider Management**: View and manage service providers in a comprehensive table
 - **Advanced Filtering**: Filter by postcode, registration status, date range, vendor type, and service offering
 - **Real-time Search**: Live search across all provider data
@@ -12,18 +12,18 @@ A modern, responsive admin panel for managing service providers on the Gler plat
 - **Sorting**: Sort by any column (email, phone, postcode, vendor type, service offering, signup date, status)
 - **Pagination**: Navigate through large datasets with 10 items per page
 
-### 📱 Responsive Design
+### Responsive Design
 - **Desktop**: Full sidebar with comprehensive filters and detailed table view
 - **Mobile**: Card-based layout with essential information and touch-friendly controls
 - **Tablet**: Optimized layout that adapts to medium screen sizes
 
-### 🎨 User Experience
+### User Experience
 - **Modern UI**: Clean, professional design matching the Figma specifications
 - **Smooth Animations**: Hover effects, transitions, and micro-interactions
 - **Success Feedback**: Toast notifications for user actions
 - **Accessibility**: Keyboard navigation and screen reader support
 
-### 🔧 Technical Features
+### Technical Features
 - **TypeScript**: Full type safety throughout the application
 - **Component Architecture**: Reusable, modular components
 - **State Management**: Efficient local state management with React hooks
@@ -84,24 +84,6 @@ npm run dev
 
 ### Build for Production
 
-```bash
-npm run build
-npm start
-```
-
-### Deployment Options
-
-#### Option 1: Vercel (Recommended for Next.js)
-1. Push your code to GitHub
-2. Connect your repository to [Vercel](https://vercel.com)
-3. Deploy automatically with zero configuration
-
-#### Option 2: Netlify
-1. Build the project: `npm run build`
-2. Deploy the `out` folder to Netlify
-3. Configure redirects for client-side routing
-
-#### Option 3: Manual Deployment
 ```bash
 npm run build
 npm start
@@ -186,15 +168,15 @@ This project is proprietary and confidential. All rights reserved.
 
 ---
 
-## 📋 Assignment Submission
+## Assignment Submission
 
 ### What's Included
-- ✅ **Complete Implementation**: All required features implemented
-- ✅ **Responsive Design**: Mobile-first approach with adaptive layouts
-- ✅ **TypeScript**: Full type safety and modern development practices
-- ✅ **Performance**: Optimized rendering and efficient state management
-- ✅ **Accessibility**: WCAG 2.1 AA compliant with keyboard navigation
-- ✅ **Clean Code**: Well-documented, maintainable, and scalable architecture
+-  **Complete Implementation**: All required features implemented
+-  **Responsive Design**: Mobile-first approach with adaptive layouts
+-  **TypeScript**: Full type safety and modern development practices
+-  **Performance**: Optimized rendering and efficient state management
+-  **Accessibility**: WCAG 2.1 AA compliant with keyboard navigation
+-  **Clean Code**: Well-documented, maintainable, and scalable architecture
 
 ### Key Features Demonstrated
 1. **Advanced Filtering System**: Multi-criteria filtering with real-time updates
@@ -210,7 +192,3 @@ This project is proprietary and confidential. All rights reserved.
 - **TypeScript** for type safety and developer experience
 - **Component Architecture** with reusable UI components
 - **Performance Optimization** with memoization and efficient rendering
-
----
-
-Built with ❤️ for the Gler platform by Fyaora Labs
